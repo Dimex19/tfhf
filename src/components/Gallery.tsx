@@ -1,0 +1,46 @@
+import React from 'react'
+
+const Gallery: React.FC = () => {
+    const images = [
+        '/images/img.jpg',
+        '/images/img2.png',
+        '/images/img3.png',
+        '/images/img4.png',
+        '/images/img5.png'
+        ];
+
+  return (
+    <div className="poppins">
+        <div className='mt-40 text-center'>
+            <p className='text-[#CD1B78] text-[20px] font-semibold'>OUR GALLERY</p>
+            <p className="text-[32px] font-bold roboto-slab">Transforming <span className="text-[#DA1077]">Lives</span> Through <span className="text-[#1B94CB]">Action</span></p>
+            <p className="text-[20px] font-medium">A glimpse into the impact of our work, bringing hope, education, and care to children in need.</p>
+        </div>
+        <div className="relative  justify-center gap-4 py-10 bg-white">
+            <div className="absolute h-20 w-full bg-white" style={{
+          borderBottomLeftRadius: '50% 100%',
+          borderBottomRightRadius: '50% 100%'
+        }}>
+
+            </div>
+            <div className="flex justify-between">
+                {images.map((src, index) => (
+                    <img
+                    key={index}
+                    src={src}
+                    className={` h-auto rounded-lg`}
+                    alt={`Gallery ${index + 1}`}
+                    />
+                ))}
+            </div>
+            <div className="absolute bottom-9 h-14 w-full bg-white" style={{
+          borderTopLeftRadius: '50% 100%',
+          borderTopRightRadius: '50% 100%'
+        }}></div>
+
+    </div>
+    </div>
+  )
+}
+
+export default Gallery
