@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer: React.FC = () => {
   return (
-    <section className='poppins bg-[#D3006C] text-white py-10 pl-[55px] pr-[120px]'>
-        <div className="flex justify-between">
+    <section className='poppins bg-[#D3006C] text-white py-10 px-5 md:pl-[55px] md:pr-[120px]'>
+        <div className="flex justify-between flex-wrap">
             <div className="max-w-[492px]">
                 <div className="flex items-center gap-2 mb-4">
                     <img src="/images/logo.png" alt="" className="" />
@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="w-[966px] mx-auto mt-20" style={{backgroundColor: 'rgba(255, 255, 255, 0.2)'}}>
-            <p className="text-[20px] text-center py-4 font-semibold">© 2025. The Future Hope Child Aid Foundation. All rights reserved.</p>
+        <div className="md:w-[966px] mx-auto mt-20" style={{backgroundColor: 'rgba(255, 255, 255, 0.2)'}}>
+            <p className="md:text-[20px] text-[10px] text-center py-4 font-semibold">© 2025. The Future Hope Child Aid Foundation. All rights reserved.</p>
         </div>
     </section>
   )
