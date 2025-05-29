@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
           <p className="md:text-[24px] text-[18px]">Championing the rights of children by improving access to education, healthcare, and protection for those in need. </p>
 
           <div className="flex">
-            <Button text='Donate Now' style='bg-[#DA1077] text-white py-4 rounded-[8px] mt-14 mr-5'/>
-            <Button text='Partner With Us' style='border-2 border-[#DA1077] text-[#DA1077] py-4 rounded-[8px] mt-14'/>
+            <Button text='Donate Now' style='bg-[#DA1077] text-white py-4 rounded-[8px] text-[14px] md:text-[14px] mt-14 mr-5'/>
+            <Button text='Partner With Us' style='border-2 border-[#DA1077] text-[#DA1077] py-4 text-[14px] md:text-[16px] rounded-[8px] mt-14'/>
           </div>
       </div>
       <div className="relative w-[40%] hidden md:block">
