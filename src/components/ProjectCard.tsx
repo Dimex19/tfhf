@@ -10,7 +10,7 @@ type projectCardProps = {
 
 const ProjectCard: React.FC<projectCardProps> = ({image, title, desc, proj}) => {
   return (
-    <div className='shadow-md rounded-[10px]'>
+    <div className='shadow-md rounded-[10px] mb-5'>
         <img src={image} alt="" />
         <div className="p-[18px]">
             <p className='text-[#F8007F] text-[20px] font-medium'>{proj}</p>
