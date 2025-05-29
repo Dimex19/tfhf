@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                         <a href="#"><p className='py-2'>Our Projects</p></a>
                         <a href="#"><p className='py-2'>Contact Us</p></a>
                 </div>
-                <div className="absolute top-0 bg-black w-full h-full" onClick={()=>setShowMenu(!showMenu)} style={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
+                <div className="absolute top-0 bg-black w-full h-[800px]" onClick={()=>setShowMenu(!showMenu)} style={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
                 </div>
             </div>
         }

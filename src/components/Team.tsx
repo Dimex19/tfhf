@@ -6,7 +6,7 @@ const teamData = [
     name: 'Mustapha Odunsi',
     position: 'Founder/ Chairman',
     image: '/images/mustapha.png',
-    style: 'h-[348px]',
+    style: 'md:h-[348px]',
   },
   {
     name: 'Kaothar Sulaimon',
