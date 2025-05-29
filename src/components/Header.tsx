@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         
         {showMenu && 
             <div className="">
-                <div className="fixed absolute z-60 top-0 right-0 p-5 bg-white w-[60vw] h-[100%] flex-col justify-end items-end" >
+                <div className="fixed z-60 top-0 right-0 p-5 bg-white w-[60vw] h-[100%] flex-col justify-end items-end" >
                             <p className="flex justify-end text-3xl" onClick={()=> setShowMenu(!showMenu)}>
                                 <IoMdClose />
                             </p>

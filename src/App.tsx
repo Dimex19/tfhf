@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Gallery from "./components/Gallery"
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Hero/>
       <Marque/>
+      <About/>
       <Gallery/>
       <Projects/>
       <Team/>
