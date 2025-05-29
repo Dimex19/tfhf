@@ -4,7 +4,7 @@ import Button from './ButtonProps'
 const Hero: React.FC = () => {
   return (
     <div className="bg-[rgb(255,242,249)] flex roboto-slab h-[90vh]">
-      <div className='w-[830px] px-5 md:px-20 py-24'>
+      <div className='w-[830px] px-5 md:px-20 py-12 md:py-24'>
           <h1 className='md:text-[64px] text-[42px]'>Building a future <br/> where every <span className="text-[#DA1077]">Nigerian</span> <span className="text-[#1B94CB]">child</span> thrives</h1>
           <p className="md:text-[24px] text-[18px]">Championing the rights of children by improving access to education, healthcare, and protection for those in need. </p>
 

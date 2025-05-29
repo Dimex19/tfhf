@@ -22,7 +22,7 @@ const Marque: React.FC = () => {
 
     return (
         <div className="bg-[#FFC3E2] overflow-x-scroll w-full hide-scrollbar">
-            <div className='py-10  flex gap-4 animate-marquee'>
+            <div className='py-5 md:py-10 flex gap-4 animate-marquee'>
             
                 {quotes.map((quote, index) => (
                     <MarqueeText key={index} text={quote}/>
