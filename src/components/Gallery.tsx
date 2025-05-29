@@ -16,27 +16,27 @@ const Gallery: React.FC = () => {
             <p className="text-[32px] font-bold roboto-slab">Transforming <span className="text-[#DA1077]">Lives</span> Through <span className="text-[#1B94CB]">Action</span></p>
             <p className="text-[20px] font-medium">A glimpse into the impact of our work, bringing hope, education, and care to children in need.</p>
         </div>
-        <div className="relative  justify-center gap-4 py-10 bg-white">
-            <div className="absolute h-20 w-full bg-white" style={{
-          borderBottomLeftRadius: '50% 100%',
-          borderBottomRightRadius: '50% 100%'
-        }}>
-
-            </div>
-            <div className="flex justify-between">
-                {images.map((src, index) => (
-                    <img
-                    key={index}
-                    src={src}
-                    className={`w-[170px] h-auto rounded-lg`}
-                    alt={`Gallery ${index + 1}`}
-                    />
-                ))}
-            </div>
-            <div className="absolute bottom-9 h-14 w-full bg-white" style={{
-          borderTopLeftRadius: '50% 100%',
-          borderTopRightRadius: '50% 100%'
-        }}></div>
+        <div className="relative mt-[57px]">
+          <div className="absolute h-10 md:h-20 w-full bg-white" style={{
+            borderBottomLeftRadius: '50% 100%',
+            borderBottomRightRadius: '50% 100%'
+          }}></div>
+          <div className="justify-center gap-4 bg-white overflow-x-scroll">
+              <div className="flex justify-between gap-2.5">
+                  {images.map((src, index) => (
+                      <img
+                      key={index}
+                      src={src}
+                      className={`w-[170px] md:w-full h-auto rounded-lg`}
+                      alt={`Gallery ${index + 1}`}
+                      />
+                  ))}
+              </div>
+        </div>
+        <div className="absolute bottom-0 h-10 md:h-20 w-full bg-white" style={{
+            borderTopLeftRadius: '50% 100%',
+            borderTopRightRadius: '50% 100%'
+          }}></div>
 
     </div>
     </div>
