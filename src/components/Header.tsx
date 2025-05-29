@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     const [showMenu, setShowMenu] = useState<boolean>(false)
 
   return (
-    <section className='px-20 py-5 bg-[#FFF2F9] poppins font-medium'>
+    <section className='md:px-20 px-5 py-5 bg-[#FFF2F9] poppins font-medium'>
         <div className="hidden justify-between items-center md:flex">
             <img src="/images/logo.png" alt="" className='w-[70px]' />
             <div className="flex gap-8 text-[20px] font-medium">
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between md:hidden">
             <img src="/images/logo.png" alt="" className='w-[70px]' />
             <div className="flex gap-5 items-center">
-                <Button text='Donate Now' style='rounded-[8px] h-[40px] text-[14px]'/>
+                <Button text='Donate Now' style='rounded-[8px] h-[40px] text-[14px] bg-[#DA1077] text-white font-medium'/>
                 <p className="text-3xl" onClick={()=>setShowMenu(!showMenu)}><GiHamburgerMenu/></p>
             </div>
         </div>

@@ -4,9 +4,9 @@ import Button from './ButtonProps'
 const Hero: React.FC = () => {
   return (
     <div className="bg-[rgb(255,242,249)] flex roboto-slab h-[90vh]">
-      <div className='w-[830px] px-20 py-24'>
-          <h1 className='text-[64px]'>Building a future <br/> where every <span className="text-[#DA1077]">Nigerian</span> <span className="text-[#1B94CB]">child</span> thrives</h1>
-          <p className="text-[24px]">Championing the rights of children by improving access to education, healthcare, and protection for those in need. </p>
+      <div className='w-[830px] px-5 md:px-20 py-24'>
+          <h1 className='md:text-[64px] text-[48px]'>Building a future <br/> where every <span className="text-[#DA1077]">Nigerian</span> <span className="text-[#1B94CB]">child</span> thrives</h1>
+          <p className="md:text-[24px] text-[18px]">Championing the rights of children by improving access to education, healthcare, and protection for those in need. </p>
 
           <div className="flex">
             <Button text='Donate Now' style='bg-[#DA1077] text-white py-4 rounded-[8px] mt-14 mr-5'/>
