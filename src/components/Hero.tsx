@@ -3,7 +3,7 @@ import Button from './ButtonProps'
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-[rgb(255,242,249)] flex roboto-slab min-h-[90vh] relative z-0">
+    <div className="bg-[rgb(255,242,249)] mt-20 flex roboto-slab min-h-[90vh] relative z-0">
       <div className='flex-1 max-w-[830px] px-5 md:px-20 py-12 md:py-24'>
         <h1 className='md:text-[64px] text-[42px] leading-tight mb-6'>
           Building a future <br/> where every{' '}
