@@ -10,8 +10,8 @@ const Gallery: React.FC = () => {
         ];
 
   return (
-    <div className="poppins">
-        <div className='mt-40 text-center'>
+    <div className="poppins ">
+        <div className='mt-40 text-center px-5 md:px-0'>
             <p className='text-[#CD1B78] text-[20px] font-semibold'>OUR GALLERY</p>
             <p className="text-[32px] font-bold roboto-slab">Transforming <span className="text-[#DA1077]">Lives</span> Through <span className="text-[#1B94CB]">Action</span></p>
             <p className="text-[20px] font-medium">A glimpse into the impact of our work, bringing hope, education, and care to children in need.</p>
@@ -28,7 +28,7 @@ const Gallery: React.FC = () => {
                     <img
                     key={index}
                     src={src}
-                    className={` h-auto rounded-lg`}
+                    className={`w-[170px] h-auto rounded-lg`}
                     alt={`Gallery ${index + 1}`}
                     />
                 ))}
