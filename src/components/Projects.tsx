@@ -26,9 +26,9 @@ const Projects: React.FC = () => {
   return (
     <div className='px-5 md:px-20 poppins'>
         <div className='mt-10 md:mt-40 text-center'>
-            <p className='text-[#CD1B78] text-[20px] font-semibold'>OUR PROJECTS</p>
-            <p className="text-[32px] font-bold roboto-slab">Making a <span className="text-[#DA1077]">Difference</span> One <span className="text-[#1B94CB]">Project</span> at a Time</p>
-            <p className="text-[20px] font-medium">Empowering children through education, skills, and safe spaces for a brighter future</p>
+            <p className='text-[#CD1B78] text-[18px] md:text-[20px] font-semibold'>OUR PROJECTS</p>
+            <p className="text-[26px] md:text-[32px] font-bold roboto-slab">Making a <span className="text-[#DA1077]">Difference</span> One <span className="text-[#1B94CB]">Project</span> at a Time</p>
+            <p className="text-[16px] md:text-[20px] font-medium">Empowering children through education, skills, and safe spaces for a brighter future</p>
         </div>
         <div className="flex mt-16 items-center justify-center md:justify-between flex-wrap ">
             {projects.map((project, index)=> (

@@ -68,12 +68,12 @@ const Team: React.FC = () => {
   return (
     <section className="px-4 py-5 md:py-10 bg-[#FDFBFB] poppins">
       <div className="mt-5 md:mt-40 text-center">
-        <p className="text-[#CD1B78] text-[20px] font-semibold">OUR TEAM</p>
-        <p className="text-[32px] font-bold roboto-slab">
+        <p className="text-[#CD1B78] text-[18px] md:text-[20px] font-semibold">OUR TEAM</p>
+        <p className="text-[26px] md:text-[32px] font-bold roboto-slab">
           Meet the <span className="text-[#DA1077]">Hearts</span> Behind Our{' '}
           <span className="text-[#1B94CB]">Mission</span>
         </p>
-        <p className="text-[20px] font-medium">
+        <p className="text-[16px] md:text-[20px] font-medium">
           A dedicated team committed to protecting and empowering children in Nigeria
         </p>
       </div>

@@ -17,19 +17,19 @@ const Footer: React.FC = () => {
                     <img src="/icons/instagram-white.png" alt="" className="" />
                 </div>
             </div>
-            <div className="flex gap-30">
+            <div className="flex gap-30 mt-5 md:mt-0">
                 <div className="block">
-                    <p className="text-[20px] font-semibold mb-3">Quick Links</p>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">Home</p></a>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">About Us</p></a>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">Our Projects</p></a>
-                    <a href="#"><p className="text-[16px] font-medium">Contact Us</p></a>
+                    <p className="text-[16px] md:text-[20px] font-semibold mb-3">Quick Links</p>
+                    <a href="#"><p className="text-[14px] md:text-[16px] font-medium mb-2">Home</p></a>
+                    <a href="#"><p className="text-[14px] font-medium mb-2">About Us</p></a>
+                    <a href="#"><p className="text-[14px] font-medium mb-2">Our Projects</p></a>
+                    <a href="#"><p className="text-[14px] font-medium">Contact Us</p></a>
                 </div>
                 <div className="block">
-                    <p className="text-[20px] font-semibold mb-3">Get Involved</p>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">Volunteer</p></a>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">Donate</p></a>
-                    <a href="#"><p className="text-[16px] font-medium mb-2">Partner with Us</p></a>
+                    <p className="text-[16px] md:text-[20px] font-semibold mb-3">Get Involved</p>
+                    <a href="#"><p className="text-[14px] font-medium mb-2">Volunteer</p></a>
+                    <a href="#"><p className="text-[14px] font-medium mb-2">Donate</p></a>
+                    <a href="#"><p className="text-[14px] font-medium mb-2">Partner with Us</p></a>
                 </div>
             </div>
         </div>
