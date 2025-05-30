@@ -57,7 +57,12 @@ const Contact: React.FC = () => {
                         <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px]'/>
                     </div>
                 </div>
-                <label htmlFor="">Type your Message:</label> <br/><input type='textarea' className='border rounded-[6px] p-1 px-2.5 mb-10 w-full h-[147px]'/>
+                <label htmlFor="">Type your Message:</label>
+                <textarea 
+            className="w-full p-3 border mb-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+            
+            placeholder="Enter your message here...">
+        </textarea>
                 <Button text='Send Message' style='rounded-[8px] h-[50px] mb-[52px] text-[16px] bg-[#DA1077] text-white font-medium'/> 
             </form>
         </div>
