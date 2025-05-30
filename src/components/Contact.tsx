@@ -41,27 +41,24 @@ const Contact: React.FC = () => {
                 <div className="flex justify-between mb-6">
                     <div className="flex-col">
                         <label htmlFor="">First Name:</label> <br/>
-                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px]'/>
+                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px] focus:outline-none focus:ring-2 focus:ring-[#1B94CB] focus:border-transparent'/>
                     </div>
                     <div className="flex-col">
                         <label htmlFor="">Last Name:</label> <br/>
-                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px]'/>
+                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px] focus:outline-none focus:ring-2 focus:ring-[#1B94CB] focus:border-transparent'/>
                     </div>
                 </div>
                 <div className="flex justify-between mb-6">
                     <div className="flex-col">
                         <label htmlFor="">E-mail Address:</label> <br/>
-                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px]'/></div>
+                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px] focus:outline-none focus:ring-2 focus:ring-[#1B94CB] focus:border-transparent'/></div>
                     <div className="flex-col">
                         <label htmlFor="">Phone Number:</label> <br/>
-                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px]'/>
+                        <input type="text" className='border rounded-[6px] md:p-1 px-2.5 w-[150px] md:w-[252px] focus:outline-none focus:ring-2 focus:ring-[#1B94CB] focus:border-transparent'/>
                     </div>
                 </div>
                 <label htmlFor="">Type your Message:</label>
-                <textarea 
-            className="w-full p-3 border mb-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-            
-            placeholder="Enter your message here...">
+                <textarea className="w-full h-[147px] p-3 border mb-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B94CB] focus:border-transparent resize-none" placeholder="Type your message">
         </textarea>
                 <Button text='Send Message' style='rounded-[8px] h-[50px] mb-[52px] text-[16px] bg-[#DA1077] text-white font-medium'/> 
             </form>
